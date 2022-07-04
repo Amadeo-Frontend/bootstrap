@@ -43,7 +43,7 @@
       <div class="container">
         <div class="row">  
             <div class="col-md-6 offset-md-3">
-              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade rounded-4" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="images/pexels-2.jpeg" class="d-block w-100" alt="...">
@@ -349,5 +349,12 @@
     </div>
     
     <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      const myCarouselElement = document.querySelector('#carouselExampleFade')
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 3000,
+      })
+
+    </script>
   </body>
   </html>
