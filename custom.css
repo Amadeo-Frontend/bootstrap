@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(21, 18, 18);
+    color: azure;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    margin-top: 1rem;
+}
+
+header ul {
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+header li, a {
+    color: rgb(78, 255, 58) !important;
+    font-size: 1.5rem;
+}
+
+header {
+    border-bottom: 1px solid rgb(22, 245, 18);
+}
+
+header img {
+    width: 10rem;
+    height: 10rem;
+    padding: 17px;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(78, 255, 58);
+    overflow: hidden;
+}
+
+.text {
+    margin-top: 3.5rem;
+    transition: 1s ease;
+    transform: translateY(100px);
+    opacity: .5;
+}
+
+.card:hover .text {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+#sobre {
+    border-bottom: 1px solid rgb(12, 250, 39);
+}
+
+#sobre img {
+    width: 95%;
+    height: auto;
+}
+
+#sobre h2 {
+    padding: 20px;
+}
+
+#sobre p {
+    padding: 30px;
+}
+
+#produtos {
+    border-bottom: 1px solid rgb(22, 245, 18);
+}
+
+#produtos p {
+    color: green;
+    padding-left: 0;
+}
+
+#produtos h5 {
+    color: blue;
+}
+
+#modal-1 h5, h6 {
+    color: blue;
+}
+
+#contato p, h2 {
+    padding: 10px;
+}
+
+.foot {
+    border-top: 1px solid rgb(12, 250, 39);
+}
+
+.foot p {
+    padding: 20px;
+}
+
+.foot img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    #contato {
+        width: 97%;
+    }
+}
