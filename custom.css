@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h5 {
+    font-size: 25px;
+}
+
 section {
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -23,7 +27,7 @@ header ul {
 }
 
 header li, a {
-    color: rgb(78, 255, 58) !important;
+    color: rgb(22, 245, 18) !important;
     font-size: 1.5rem;
 }
 
@@ -54,12 +58,15 @@ textarea {
     margin: 2px;
 }
 
+.card a {
+    color: black !important;
+}
+
 .card {
-    width: 30%;
-    float: left;
+    padding: 20px;
     margin: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px rgb(78, 255, 58);
+    box-shadow: -5px -5px 10px rgb(78, 255, 58), 5px 5px 10px 3px blue;
     overflow: hidden;
 }
 
@@ -105,6 +112,10 @@ button {
     padding-left: 0;
 }
 
+#modal-3 a, #modal-2 a, #modal-1 a {
+    color: blue !important;
+}
+
 #produtos h5 {
     color: blue;
 }
@@ -133,4 +144,32 @@ button {
 .foot img {
     width: 40px;
     height: 40px;
+}
+
+@media (max-width: 767px) {
+
+    #contato {
+        width: 97%;
+    }
+
+    #produtos .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #produtos h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 990px) {
+    #sobre {
+        display: block !important;
+
+    }
 }

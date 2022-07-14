@@ -23,13 +23,13 @@
               <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#sobre">Sobre</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#produtos">Produtos</a>
+              <a class="nav-link" href="#produtos">Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#contato">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -39,7 +39,7 @@
   <section id="sobre">
     <div class="container">
       <div class="row">  
-        <div class="col-md-6 offset-md-3">
+        <div class="col">
           <div id="carouselFade" class="carousel slide carousel-fade rounded-4" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -77,27 +77,25 @@
 <section id="produtos">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h2><strong>#Top 3</strong></h2>
-        <div class="card">
-          <div class="text"> <img
-            src="./images/rv-1.jpg"
+      <h2><strong><span class="badge rounded-pill bg-danger">#TOP 3</span></strong></h2>
+      <div class="col d-flex justify-content-center">
+        <div class="card w-75">
+          <div class="text">
+            <img
+            src="./images/rv-3.jpg"
             alt="tecnologia"
-            class="img-fluid"
-            />
-            
+            class="img-fluid"/>
             <div class="card-body">
-              <h5 class="card-title">1#Rift S PC-Powered VR Gaming Headset - Oculus</h5>
+              <h5 class="card-title"><strong><span class="badge rounded-pill bg-danger">3#</span></strong><br>Fone de ouvido BNEXT VR - Bnext</h5>
               <p class="card-text">
-                Melhor opção do mercado: realidade virtual em última potência
+                A melhor experiência para smartphones e configuração simples
               </p>
-              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-1"
-              >Ver produto</a
-              >
+              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-3"
+              >Ver produto</a>
             </div>
           </div>
         </div> 
-        <div class="card">
+        <div class="card w-75">
           <div class="text">
             <img
             src="./images/rv-2.jpg"
@@ -105,7 +103,7 @@
             class="img-fluid"
             />
             <div class="card-body">
-              <h5 class="card-title">2#Oculus Quest All-in-one VR Gaming Headset 64GB - Oculus</h5>
+              <h5 class="card-title"><strong><span class="badge rounded-pill bg-danger">2#</span></strong><br>Oculus Quest All-in-one VR Gaming Headset 64GB - Oculus</h5>
               <p class="card-text">
                 O pioneiro sem fios com equilíbrio entre custo e qualidade
               </p>
@@ -114,19 +112,21 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card w-75">
           <div class="text">
             <img
-            src="./images/rv-3.jpg"
+            src="./images/rv-1.jpg"
             alt="tecnologia"
-            class="img-fluid"/>
+            class="img-fluid"
+            /> 
             <div class="card-body">
-              <h5 class="card-title">3#Fone de ouvido BNEXT VR - Bnext</h5>
+              <h5 class="card-title"><strong><span class="badge rounded-pill bg-danger">1#</span></strong><br>Rift S PC-Powered VR Gaming Headset - Oculus</h5>
               <p class="card-text">
-                A melhor experiência para smartphones e configuração simples
+                Melhor opção do mercado: realidade virtual em última potência
               </p>
-              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-3"
-              >Ver produto</a>
+              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-1"
+              >Ver produto</a
+              >
             </div>
           </div>
         </div>
@@ -172,7 +172,7 @@
                     <div class="col">
                       <i class="fa-solid fa-earth-americas"></i>
                       <label for="estado p-5">Estado</label>
-                      <select name="estado" id="estado"class="form-control"id="cep">
+                      <select name="estado" id="estado"class="form-control"id="cep"required>
                         <option value=""required>Selecione um estado</option>
                         <option value="AC">SP</option>
                         <option value="AL">PR</option>
@@ -188,7 +188,7 @@
                   </div>
                   <div class="col">  
                     <i class="fa-regular fa-message"></i>
-                    <textarea class="form-control" name="" rows="6"placeholder="Mensagem"></textarea>
+                    <textarea class="form-control" name="" rows="6"placeholder="Mensagem" required></textarea>
                   </div>
                   <div class="col"><button type="submit" class="btn btn-group-sm btn-danger">Enviar</button>
                   </div>
@@ -201,7 +201,7 @@
     </div>
   </div>
 </div>
-</div>
+
 </section>
 <div class="mt-5 p-4 text-center">
   <footer class="foot">
@@ -250,7 +250,7 @@
           </tbody>   
         </table>
       </div>
-      <a href="https://www.amazon.com.br/gp/product/B07PTMKYS7?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=d202fb156967a66572adfc25f68ae7ae&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-info"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="https://www.amazon.com.br/gp/product/B07PTMKYS7?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=d202fb156967a66572adfc25f68ae7ae&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-danger"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
@@ -296,7 +296,7 @@
           </tbody>                      
         </table>
       </div>
-      <a href="https://www.amazon.com.br/gp/product/B07HNW68ZC?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=a39316da4cabdc2c04c4e69233409e3e&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-info"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="https://www.amazon.com.br/gp/product/B07HNW68ZC?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=a39316da4cabdc2c04c4e69233409e3e&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-danger"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
@@ -345,7 +345,7 @@
           
         </table>
       </div>
-      <a href="https://www.amazon.com.br/gp/product/B07Q3NCJYP?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=d53dabff3f1044d43f1e4622e68ab61e&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-info"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="https://www.amazon.com.br/gp/product/B07Q3NCJYP?ie=UTF8&linkCode=ll1&tag=medialeads08-20&linkId=d53dabff3f1044d43f1e4622e68ab61e&language=pt_BR&ref_=as_li_ss_tl" class="card-link btn btn-danger"target="_blank">amazon.com.br <i class="fa-solid fa-cart-shopping"></i></a>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
@@ -363,3 +363,5 @@
 </script>
 </body>
 </html>
+
+
