@@ -1,3 +1,7 @@
+
+*{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(21, 18, 18);
     color: azure;
@@ -150,7 +154,21 @@ button {
     width: 40px;
     height: 40px;
 }
+#btnTop {
+	position: fixed;
+	bottom: 20px;
+	right: 25px;
+	display: none;
+	border: none;
+	border-radius: 80%;
+	background-color: rgb(21, 18, 18);
+}
 
+#btnTop img {
+	width: 25px;
+	height: auto;
+	background-color: rgb(21, 18, 18);
+}
 @media (max-width: 767px) {
 
     #contato {
