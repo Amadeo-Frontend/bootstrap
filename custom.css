@@ -21,6 +21,10 @@ textarea {
     margin-top: 1rem;
 }
 
+.container-fluid {
+    align-items: center !important;
+}
+
 header ul {
     padding: 20px;
     margin-top: 20px;
@@ -39,6 +43,7 @@ header img {
     width: 10rem;
     height: 10rem;
     padding: 17px;
+    border-radius: 50%;
 }
 
 header h1 {
@@ -171,5 +176,11 @@ button {
     #sobre {
         display: block !important;
 
+    }
+}
+
+@media (max-width: 1600px) {
+    .navbar-collapse {
+        flex-grow: 0;
     }
 }
